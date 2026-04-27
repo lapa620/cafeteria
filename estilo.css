@@ -9,6 +9,7 @@ body{
     background-color: #f5c586;
     height: 100vh;
     width: 100vw;
+    
 }
 header{
     background-color: #a36d26;
@@ -39,4 +40,27 @@ nav{
     gap: 20px;
     margin-top: 10px;
 
+}
+.container h2{
+    font-size: 30px;
+}
+.container{
+    width: 1200px;
+  justify-content: space-between;
+    margin:20px;
+    display: flex;
+    border-radius: 15px;
+    border: #333 solid 1px;
+    background-color: #f1b361;
+    flex-direction: row;
+    box-shadow:1px 1px 7px black;
+}
+p{
+    height: fit-content;
+    width: fit-content;
+}
+#coffecat{
+    float: right;
+    height: 400px;
+    width: 400px;
 }
