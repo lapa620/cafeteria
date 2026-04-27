@@ -17,12 +17,12 @@ header{
     color: white;
 
 }
-.navega{
+.navega a{
      transition: all 0.3s ease;
    
 
 }
-.navega:hover{
+.navega a:hover{
    
     transform:scale(1.2);
 }
