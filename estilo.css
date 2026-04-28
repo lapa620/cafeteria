@@ -65,7 +65,7 @@ body{
 
 .botao{
     border-radius: 15px;
-    padding: 1%;
+    padding: 12px;
     width:fit-content;
     cursor: pointer;
     background-color: #a36d26;
@@ -78,6 +78,10 @@ body{
 .botao:hover{
     transform: scale(1.1);
 }
+.botao:active{
+    transform: scale(0.9);
+    background-color: #8e5e20;
+}
 .container h2{
     font-size: 2em;
 }
@@ -88,10 +92,10 @@ body{
     justify-content: space-between;
     display: flex;
     
-    border: #333 solid 1px;
-    background-color: #F5E6D3;
+  
+    background-color: #f2b86d;
     flex-direction: row;
-    box-shadow:1px 1px 7px black;
+    
 }
 main div{
     height: fit-content;
@@ -122,19 +126,18 @@ main div{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
-    background-color: beige;
+    background-color: #f2b86d
 }
 
 .item {
+    
     background-color: #ffe7c7;
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
     box-shadow: 1px 1px 7px black;
     width: 200px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+
 }
 
 .item img {
@@ -147,14 +150,38 @@ main div{
 
 /*--------------------section------------------------------*/
 section{
+    color:white;
     padding: 1%;
     margin: 20px;
-    background-color: #de9f4e
-    ;
+    background-image: url(imgs/fundo-section.png);
     height: 400px;
     height: 300px;
     border-radius: 15px;
+    
 }
+
+section p{
+    margin:1%
+}
+section .botao{
+    float: right;
+    margin-top: 15%;
+    font-size: 1.5em;
+   
+    margin: 1%;
+}
+
+.planos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.plano{
+    width: 200px;
+}
+
 
 /*----------------------foter--------------------------*/
 footer{
