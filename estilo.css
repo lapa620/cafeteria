@@ -139,9 +139,9 @@ main div{
 
 /*--------------------section------------------------------*/
 section{
+    padding: 1%;
     margin: 20px;
-    background-color: #de9f4e
-    ;
+    background-color: #de9f4e;
     height: 400px;
     height: 300px;
     border-radius: 15px;
