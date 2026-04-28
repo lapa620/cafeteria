@@ -64,6 +64,8 @@ body{
 
 
 .botao{
+     border-radius: 15px;
+    padding: 1%;
     width:fit-content;
     cursor: pointer;
     background-color: #a36d26;
