@@ -172,11 +172,10 @@ section .botao{
 }
 
 .planos{
-    margin-top: 30px;
+      margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+   gap: 90px;
     flex-wrap: wrap;
-    width: 800px;
 }
 .plano{
     width: 200px;
