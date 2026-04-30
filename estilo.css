@@ -71,6 +71,7 @@ body {
 /*--------------------CONTEINER PRINCIPAL--------------------*/
 
 #botoes {
+    margin-top: 90px;
     display: flex;
 
 }
@@ -124,13 +125,10 @@ main div {
 
 }
 
-#coffecat {
 
-    width: 70%;
-}
 
 #texto-container {
-    width: 60%;
+    width: 50%;
     font-size: 1.8em;
 }
 
