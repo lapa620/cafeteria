@@ -1,119 +1,135 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /**========================== HEADER =================================**/
-header{
+header {
     background-color: #a77633;
     padding: 20px;
     text-align: center;
     color: white;
 
 }
-.head h1{
+
+.head h1 {
     display: none;
 }
 
-.head{
- 
+.head {
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     height: 10%;
     width: 10%;
 }
-.navega a{
-     transition: all 0.3s ease;
-   
+
+.navega a {
+    transition: all 0.3s ease;
+
 
 }
-.navega a:hover{
-   
-    transform:scale(1.2);
+
+.navega a:hover {
+
+    transform: scale(1.2);
 }
+
 nav a {
-   
-     text-decoration: none;
+
+    text-decoration: none;
     color: #ffffff;
     font-size: 18px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 20px;
-   
+
 
 }
+
 /**=====================================================**/
 
 /**======================= CORPO DO SITE ==============================**/
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5c586;
     height: 100vh;
     width: 100%;
-    
+
 }
 
 /*--------------------CONTEINER PRINCIPAL--------------------*/
 
-#botoes{
+#botoes {
     display: flex;
-   
+
 }
 
-.botao{
+.botao {
     margin: 15px;
     user-select: none;
     border-radius: 15px;
     padding: 12px;
-    width:fit-content;
+    width: fit-content;
     cursor: pointer;
     background-color: #a36d26;
     color: #ffffff;
-    margin-top:10px;
+    margin-top: 10px;
     border: solid 1px black;
-    box-shadow: 1px 1px 1px black ;
+    box-shadow: 1px 1px 1px black;
     transition: all 0.5s;
 }
-.botao:hover{
+
+.botao:hover {
     transform: scale(1.1);
 }
-.botao:active{
+
+.botao:active {
     transform: scale(1);
     background-color: #8e5e20;
-       box-shadow: 1px 1px 5px black ;
+    box-shadow: 1px 1px 5px black;
 }
-.container h2{
+
+.container h2 {
     font-size: 2em;
 }
 
-.container{
+.container {
     padding: 20px;
+    height: 600px;
     width: 100%;
     justify-content: space-between;
     display: flex;
-    
-  
-    background-color: #f2b86d;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(imgs/img-container.png);
     flex-direction: row;
-    
+
 }
-main div{
+
+main div {
     height: fit-content;
     width: fit-content;
-   
+
 }
-#coffecat{
-   
+
+#coffecat {
+
     width: 70%;
 }
-#texto-container{
+
+#texto-container {
     width: 70%;
     font-size: 1.8em;
 }
@@ -121,7 +137,7 @@ main div{
 
 /*------------------------------------------------*/
 /**====================cardápio=================================**/
-#tadinho{
+#tadinho {
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
@@ -137,7 +153,7 @@ main div{
 }
 
 .item {
-    
+
     background-color: #ffe7c7;
     border-radius: 15px;
     padding: 20px;
@@ -148,7 +164,7 @@ main div{
 }
 
 .item img {
-    
+
     align-items: center;
     justify-content: center;
     width: 40%;
@@ -156,40 +172,45 @@ main div{
 }
 
 /*--------------------section------------------------------*/
-section{
-    color:white;
+section {
+    color: white;
     padding: 1%;
     margin: 20px;
     background-image: url(imgs/fundo-section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 400px;
     height: 300px;
     border-radius: 15px;
-    
+
 }
 
-section p{
-    margin:1%
+section p {
+    margin: 1%
 }
-section .botao{
+
+section .botao {
     float: right;
     margin-top: 15%;
     font-size: 1.5em;
-   
+
     margin: 1%;
 }
 
-.planos{
+.planos {
     margin-top: 30px;
     display: flex;
-   gap: 90px;
+    gap: 90px;
     flex-wrap: wrap;
-   
+
 }
-.plano{
+
+.plano {
     width: 200px;
 }
+
 /*-------------------- Sobre os produtos -------------------*/
-.sobre{
+.sobre {
     background-color: #f2b86d;
     border-radius: 15px;
     align-items: center;
@@ -198,47 +219,50 @@ section .botao{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    gap:30px;
-    padding:10px
+    gap: 30px;
+    padding: 10px
 }
 
 /*----------------- Comentarios -----------------*/
-.opnioes{
-    
-    
-     background-color: #f2b86d;
+.opnioes {
+
+
+    background-color: #f2b86d;
 
     align-items: center;
     text-align: center;
     justify-content: center;
-    
+
     margin-bottom: 10px;
     display: flex;
-   
-    padding:10px
+
+    padding: 10px
 }
-.comentarios{
+
+.comentarios {
     padding: 10px;
-   margin-left: 30px;
-   margin-right: 30PX;
-     background-color: #ffe7c7;
+    margin-left: 30px;
+    margin-right: 30PX;
+    background-color: #ffe7c7;
     border-radius: 15px;
 
 }
-#titulo-comentario{
-  background-color: #f2b86d;
+
+#titulo-comentario {
+    background-color: #f2b86d;
     margin-top: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
+
 /*----------------------foter--------------------------*/
-footer{
+footer {
     background-color: #a77633;
     color: white;
     text-align: center;
     padding: 10px;
-    
+
     bottom: 0;
     width: 100%;
 }
