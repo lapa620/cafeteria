@@ -178,6 +178,13 @@ main div {
     width: 40%;
     height: 100%;
 }
+.cafe-mais{
+    transition: all 0.3s ease;cursor: pointer;
+}
+.cafe-mais:hover {
+
+    transform: scale(1.1);
+}
 
 /*--------------------section------------------------------*/
 section {
