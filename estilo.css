@@ -60,7 +60,12 @@ nav {
 
 
 }
-
+.icone{
+    display: flex;
+    height: 40px; margin-left: 1210px; position: absolute;
+    top: 13px;
+    float: left;
+}
 /**=====================================================**/
 
 /**======================= CORPO DO SITE ==============================**/
@@ -162,16 +167,16 @@ main div {
     padding: 20px;
     margin: 10px;
     box-shadow: 1px 1px 7px black;
-    width: 200px;
+    width: 260px;
 
 }
 
 .item img {
-
+    float: left;
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: auto;
+    height: 100%;
 }
 
 /*--------------------section------------------------------*/
