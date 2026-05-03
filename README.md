@@ -1,5 +1,4 @@
 # cafeteria
-Uma cafeteria temática de gatos (ou "Cat Café") pede um README que seja tão charmoso e acolhedor quanto o próprio estabelecimento.
 
 
 🐾 Cat Café - Página Inicial
