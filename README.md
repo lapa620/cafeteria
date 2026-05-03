@@ -1,7 +1,6 @@
 # cafeteria
 Uma cafeteria temática de gatos (ou "Cat Café") pede um README que seja tão charmoso e acolhedor quanto o próprio estabelecimento.
 
-Aqui está uma estrutura caprichada, organizada e pronta para você copiar e adaptar:
 
 🐾 Cat Café - Página Inicial
 Bem-vindo ao repositório da landing page do Cat Café! Este projeto é uma vitrine digital para uma cafeteria onde o café é quente, o ambiente é aconchegante e os anfitriões ronronam.
