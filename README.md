@@ -11,8 +11,6 @@ Menu Delicioso: Exibição de cafés, doces e petiscos (para humanos e felinos).
 
 Galeria de Residentes: Conheça os gatinhos que vivem na casa e estão disponíveis para adoção.
 
-Reserva de Horários: Formulário integrado para garantir seu lugar no "Playroom".
-
 Newsletter "Miau": Inscrição para receber novidades e fotos de gatinhos toda semana.
 
 🛠️ Tecnologias Utilizadas
