@@ -62,7 +62,7 @@ nav {
 }
 .icone{
     display: flex;
-    height: 40px; margin-left: 1210px; position: absolute;
+    height: 40px; margin-left: 1670px; position: absolute;
     top: 13px;
     float: left;
 }
@@ -227,12 +227,12 @@ section .botao {
 /*-------------------- Sobre os produtos -------------------*/
 .sobre {
     background-color: #f2b86d;
-    border-radius: 15px;
+   
     align-items: center;
     text-align: center;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+   
     display: flex;
     gap: 30px;
     padding: 10px
@@ -265,10 +265,22 @@ section .botao {
 
 #titulo-comentario {
     background-color: #f2b86d;
-    margin-top: 20px;
+    
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+
+/*---------------------Adoção--------------------------*/
+#sobre-adocao{
+   
+    gap:90px;
+    border-radius:5px;
+}
+
+.img-ado{
+    height: 40px;
 }
 
 /*----------------------foter--------------------------*/
